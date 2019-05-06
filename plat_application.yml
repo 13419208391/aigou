@@ -6,7 +6,7 @@ spring:
 server: 
   port: 3306
 spring:
-  profiles: dev #¿ª·¢»·¾³
+  profiles: dev #å¼€å‘ç¯å¢ƒ
   application:
     name: MICROSERVICE-USER-DEV
 eureka:
@@ -19,7 +19,7 @@ eureka:
 server: 
   port: 3305
 spring:
-  profiles: test #²âÊÔ»·¾³
+  profiles: test #æµ‹è¯•ç¯å¢ƒ
   application:
 name: MICROSERVICE-USER-TEST
 eureka:
